@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+#welcome-section {
+  /* background-image: url(backround.jfif); */
+  font-family: "Grechen Fuemen", cursive;
+  height: 100vh;
+}
+
+#welcome-section .container .row .col {
+  margin-top: 400px;
+}
+
+#welcome-section .container .row .col h1 {
+  font-size: 60px;
+}

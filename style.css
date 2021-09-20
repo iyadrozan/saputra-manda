@@ -7,13 +7,27 @@
 #welcome-section {
   /* background-image: url(backround.jfif); */
   font-family: "Grechen Fuemen", cursive;
+  background-image: url(Background.jpg);
+  background-size: cover;
   height: 100vh;
 }
 
-#welcome-section .container .row .col {
-  margin-top: 400px;
+#welcome-section .container .row .col-sm {
+  margin-top: 200px;
+  background-color: rgba(0, 0, 0, 0.507);
+  border-radius: 10px;
+  color: white;
 }
 
-#welcome-section .container .row .col h1 {
+#welcome-section .container .row .col-sm h1 {
   font-size: 60px;
+}
+#welcome-section .container .row .col-sm p {
+  font-size: 40px;
+}
+
+/* Galery section */
+#galeri {
+  background-color: black;
+  color: white;
 }
